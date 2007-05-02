@@ -1,7 +1,7 @@
 %define module  User
 %define name    perl-%{module}
-%define version 1.6
-%define release %mkrel 2
+%define version 1.8
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
@@ -10,7 +10,7 @@ Summary:        API for locating user information regardless of OS
 License:        GPL or Artistic
 Group:          Development/Perl
 Url:            http://search.cpan.org/dist/%{module}
-Source:         http://www.cpan.org/modules/by-module/User/%{module}-%{version}.tar.bz2
+Source:         http://www.cpan.org/modules/by-module/User/%{module}-%{version}.tar.gz
 %if %{mdkversion} < 1010
 BuildRequires:  perl-devel
 %endif
